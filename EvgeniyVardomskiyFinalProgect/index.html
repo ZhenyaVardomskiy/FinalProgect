@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobil.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo"><img src="./images/logo.png" alt=""></div>
+        <div class="header-nav">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+            <ul class="header-nav__list">
+                <li><a class="header-nav__list-item header-nav__list-item--active" href="#home">Home</a>
+                </li>
+                <li><a class="header-nav__list-item header-nav__list-item--active" href="#about_us">About Us</a>
+                </li>
+                <li><a class="header-nav__list-item header-nav__list-item--active" href="#shop">Shop</a>
+                </li>
+                <li><a class="header-nav__list-item header-nav__list-item--active"  href="#pages">Pages</a>
+                </li>
+                <li><a class="header-nav__list-item header-nav__list-item--active"  href="#contact_us">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="shopping-cart-position">
+            <div class="shopping-cart">
+                <button class="shopping-cart__btn shopping-cart__btn--active">
+                    <img src="./images/icon/cartshopbtn.svg" alt="">
+                </button>
+                <p class="shopping-cart__info">Cart 0</p>
+            </div>
+        </div>
+    </header>
+    <section class="preview" id="home">
+        <div class="preview-content">
+            <div class="basic__title">Made With Nature</div>
+            <div class="preview__text">Welcome to the <br> world of nature <br> and organic.</div>
+            <button class="main-btn btn--active">
+                <div class="main-btn__info">Explore Now</div>
+                <div class="main-btn__icon"><img src="./images/icon/Vector.svg" alt=""></div>
+            </button>
+        </div>
+    </section>
+    <section class="discount">
+        <div class="discount-banana discount-item">
+            <div class="discount-content">
+                <div class="discount-banana__title">Natural!!</div>
+                <div class="discount-banana__text discount-item__text">Get Garden <br>Fresh Fruits</div>
+            </div>
+        </div>
+
+        <div class="discount-peach discount-item">
+            <div class="discount-content">
+                <div class="basic__title">Offer!!</div>
+                <div class="discount-peach__text discount-item__text">Get 10% off<br>on Vegetables</div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about_us">
+        <div class="about__img">
+            <img src="./images/about_us_fruits.png" alt="">
+        </div>
+        <div class="about-content">
+            <div class="about-info">
+                <div class="basic__title">
+                    About Us
+                </div>
+                <div class="basic__tagline">We Believe in Organic <br> Foods For Strong Health</div>
+                <div class="about__text">Welcome to the world of natural and organic. Here you can discover the bounty
+                    of nature. We have grown on the principles of health, and care. We aim to give our customers a
+                    healthy chemical-free meal for perfect nutrition.</div>
+            </div>
+            <div class="quality">
+                <div class="quality_item">
+                    <div class="quality_item__img">
+                        <img class="quality_item__img-icon" src="./images/icon/quality_item1.svg" alt="">
+                    </div>
+                    <div class="quality_item__info">
+                        <div class="quality_item__title">Organic Foods Only</div>
+                        <div class="quality_item__text">The Product that you ordered will be verified that we have or
+                            not if have we will start to move on with the next step.
+                        </div>
+                    </div>
+                </div>
+                <div class="quality_item">
+                    <div class="quality_item__img">
+                        <img class="quality_item__img-icon" src="./images/icon/quality_item2.svg" alt="">
+                    </div>
+                    <div class="quality_item__info">
+                        <div class="quality_item__title">Quality Standards</div>
+                        <div class="quality_item__text">Once your product is packed it will be delivered to your nearby
+                            locality you can directly visit the to buy the product.</div>
+                    </div>
+                </div>
+            </div>
+            <button class="secondary-btn btn--active">
+                <div class="secondary-btn__info">Shop now</div>
+                <div class="secondary-btn__icon"><img src="./images/icon/Vector.svg" alt=""></div>
+            </button>
+        </div>
+    </section>
+    <section class="products-box" id="shop">
+        <div class="products-box__info">
+            <div class="basic__title">Organic</div>
+            <div class="basic__tagline">Our Products</div>
+        </div>
+        <div class="products-box-item">
+            <div class="product__item">
+                <div class="product__type">Vegetable</div>
+                <div class="product__img">
+                    <img src="./images/Broccoli.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="product-info__name">Calabrese Broccoli
+                    </div>
+                    <div class="product-info__cost">
+                        <div class="product-info__old-price">$ 25.00 USD</div>
+                        <div class="product-info__price">$ 21.00 USD</div>
+                        <div class="info-grade">
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product__item">
+                <div class="product__type">Vegetable</div>
+                <div class="product__img">
+                    <img src="./images/corn.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="product-info__name">Fresh Corn</div>
+                    <div class="product-info__cost">
+                        <div class="product-info__old-price">$ 21.23 USD</div>
+                        <div class="product-info__price">$ 18.00 USD</div>
+                        <div class="info-grade">
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product__item">
+                <div class="product__type">Millets</div>
+                <div class="product__img">
+                    <img src="./images/Pistachio.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="product-info__name">Dried Pistachio</div>
+                    <div class="product-info__cost">
+                        <div class="product-info__old-price">$ 61.00 USD</div>
+                        <div class="product-info__price">$ 48.00 USD</div>
+                        <div class="info-grade">
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product__item">
+                <div class="product__type">Vegetable</div>
+                <div class="product__img">
+                    <img src="./images/tomato.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="product-info__name">Vegan Red Tomato</div>
+                    <div class="product-info__cost">
+                        <div class="product-info__old-price">$ 14.00 USD</div>
+                        <div class="product-info__price">$ 9.37 USD</div>
+                        <div class="info-grade">
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product__item">
+                <div class="product__type">Fruits</div>
+                <div class="product__img">
+                    <img src="./images/Almonds.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="product-info__name">Organic Almonds</div>
+                    <div class="product-info__cost">
+                        <div class="product-info__old-price">$ 21.00 USD</div>
+                        <div class="product-info__price">$ 18.00 USD</div>
+                        <div class="info-grade">
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product__item">
+                <div class="product__type">Millets</div>
+                <div class="product__img">
+                    <img src="./images/Hazelnut.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="product-info__name">Brown Hazelnut</div>
+                    <div class="product-info__cost">
+                        <div class="product-info__old-price">$ 43.00 USD</div>
+                        <div class="product-info__price">$ 34.00 USD</div>
+                        <div class="info-grade">
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review">
+        <div class="review-title">
+            <div class="basic__title">Testimonial</div>
+            <div class="basic__tagline">What Our Customer Saying?</div>
+        </div>
+        <div class="review-user">
+            <div class="user__img">
+                <img src="./images/profile.png" alt="">
+            </div>
+            <div class="user-grade">
+                <div class="user-grade__icon">
+                    <img src="./images/icon/second_star.svg" alt="">
+                </div>
+                <div class="user-grade__icon">
+                    <img src="./images/icon/second_star.svg" alt="">
+                </div>
+                <div class="user-grade__icon">
+                    <img src="./images/icon/second_star.svg" alt="">
+                </div>
+                <div class="user-grade__icon">
+                    <img src="./images/icon/second_star.svg" alt="">
+                </div>
+                <div class="user-grade__icon">
+                    <img src="./images/icon/second_star.svg" alt="">
+                </div>
+            </div>
+            <div class="user-info">
+                <div class="user-info__text">The quality of organic produce is extremely high, the service is second to
+                    none and the taste of the food <br> takes me back to my childhood when we were growing our own.
+                </div>
+                <div class="user-info__name">Sara Taylor</div>
+                <div class="user-info__type">Consumer</div>
+            </div>
+        </div>
+        <div class="review-statistics">
+            <div class="statistics-item">
+                <div class="statistics-item__number">100%</div>
+                <div class="statistics-item__category">Organic</div>
+            </div>
+            <div class="statistics-item">
+                <div class="statistics-item__number">285</div>
+                <div class="statistics-item__category">Active Product</div>
+            </div>
+            <div class="statistics-item">
+                <div class="statistics-item__number">385+</div>
+                <div class="statistics-item__category">Organic Orchads</div>
+            </div>
+            <div class="statistics-item">
+                <div class="statistics-item__number">25+</div>
+                <div class="statistics-item__category">Years of Farming</div>
+            </div>
+        </div>
+    </section>
+    <section class="offer">
+        <div class="offer-info">
+            <div class="offer-info-box">
+                <div class="basic__title">Offer Products</div>
+                <div class="offer__tagline">We Offer Organic for You</div>
+            </div>
+            <button class="main-btn offer__btn btn--active">
+                <div class="main-btn__info offer-btn__info">View All products</div>
+                <div class="main-btn__icon"><img src="./images/icon/Vector.svg" alt=""></div>
+            </button>
+        </div>
+        <div class="offer-products">
+            <div class="product__item">
+                <div class="product__type">Vegetable</div>
+                <div class="product__img">
+                    <img src="./images/tomato.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="product-info__name">Vegan Red Tomato</div>
+                    <div class="product-info__cost">
+                        <div class="product-info__old-price">$ 14.00 USD</div>
+                        <div class="product-info__price">$ 9.37 USD</div>
+                        <div class="info-grade">
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product__item">
+                <div class="product__type">Fruits</div>
+                <div class="product__img">
+                    <img src="./images/Almonds.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="product-info__name">Organic Almonds</div>
+                    <div class="product-info__cost">
+                        <div class="product-info__old-price">$ 21.00 USD</div>
+                        <div class="product-info__price">$ 18.00 USD</div>
+                        <div class="info-grade">
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="product__item">
+                <div class="product__type">Vegetable</div>
+                <div class="product__img">
+                    <img src="./images/corn.png" alt="">
+                </div>
+                <div class="product-info">
+                    <div class="product-info__name">Fresh Corn</div>
+                    <div class="product-info__cost">
+                        <div class="product-info__old-price">$ 21.23 USD</div>
+                        <div class="product-info__price">$ 18.00 USD</div>
+                        <div class="info-grade">
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                            <div class="info__icon">
+                                <img src="./images/icon/star.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="delivery">
+        <div class="delivery-info-box">
+            <div class="delivery-title">
+                <div class="basic__title">Eco Friendly</div>
+                <div class="basic__tagline">From Our Farm <br> To Your Home.</div>
+            </div>
+            <div class="delivery-text">
+                <div class="delivery-text-step">
+                    <div class="step__title">Choose Your Products</div>
+                    <div class="step__text">In our listing, we have several collections of organic products. This is
+                        <br> the place where you need to choose the product you want.
+                    </div>
+                </div>
+                <div class="delivery-text-step">
+                    <div class="step__title">Farmers will produce it</div>
+                    <div class="step__text">The Product that you ordered will be verified that we have or not if <br>
+                        have we will start to move on with the next step.</div>
+                </div>
+                <div class="delivery-text-step">
+                    <div class="step__title">We Can Delivery too</div>
+                    <div class="step__text">If you are not comfortable going to the nearby market place we also <br>
+                        will deliver your product to your doorstep.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="categories" id="pages">
+        <div class="categories__item" style="background-image: url(./images/backgr_juice.png);">
+            <div class="categories__item-name">Fruit Juice</div>
+        </div>
+        <div class="categories__item" style="background-image: url(./images/backgr_food.png);">
+            <div class="categories__item-name">Organic Food</div>
+        </div>
+        <div class="categories__item" style="background-image: url(./images/backgr_cookies.png);">
+            <div class="categories__item-name">Nuts Cookies</div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="subscribe__wrapper">
+            <div class="subscribe__tagline">Subscribe our<br>Newsletter</div>
+            <form class="subscribe-form">
+                <input class="subscribe-form__input" placeholder="Enter your email address" type="email">
+                <button class="secondary-btn btn--active">
+                    <div class="secondary-btn__info">Subscribe</div>
+                    <div class="secondary-btn__icon"><img src="./images/icon/Vector.svg" alt=""></div>
+                </button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer" id="contact_us">
+        <div class="contact">
+            <div class="contact__title">Contact Us</div>
+            <div class="contact-element">
+                <div class="contact__type">Email</div>
+                <div class="contact__text">needhelp@organick.com</div>
+            </div>
+            <div class="contact-element">
+                <div class="contact__type">Phone</div>
+                <div class="contact__text">123 (1254) 1452</div>
+            </div>
+            <div class="contact-element">
+                <div class="contact__type">Address</div>
+                <div class="contact__text">88 Road, Brooklyn Street, USA</div>
+            </div>
+        </div>
+        <div class="socials">
+            <div class="socials__logo"><img src="./images/logo.png" alt=""></div>
+            <div class="socials__text">We are a popular and farming company aspiring to be a leader <br> in the Organic
+                food industry.</div>
+            <div class="socials__item-box">
+                <div class="socials__item socials__item--active"><img src="./images/icon/facebook.svg" alt=""></div>
+                <div class="socials__item socials__item--active"><img src="./images/icon/twitter.svg" alt=""></div>
+                <div class="socials__item socials__item--active"><img src="./images/icon/instagram.svg" alt=""></div>
+                <div class="socials__item socials__item--active"><img src="./images/icon/pinterest.svg" alt=""></div>
+            </div>
+        </div>
+        <div class="utility-pages">
+            <div class="utility-pages__title">Utility Pages</div>
+            <div class="utility-pages__item utility-pages--active">Style Guide</div>
+            <div class="utility-pages__item utility-pages--active">Protected</div>
+            <div class="utility-pages__item utility-pages--active">Page Not Found</div>
+            <div class="utility-pages__item utility-pages--active">Changelog</div>
+            <div class="utility-pages__item utility-pages--active">Licenses</div>
+        </div>
+    </footer>
+</body>
+<iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234179.55998524738!2d-74.11976403406963!3d40.69766374878395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!5e1!3m2!1sru!2sby!4v1663579900868!5m2!1sru!2sby"
+    width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</html>
